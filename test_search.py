@@ -22,6 +22,8 @@ def test_search_in_google():
         browser.open("https://ya.ru")
         time.sleep(0.5)
 
+        browser.element('[name="Button-Text"').type("Нет")
+
         browser.element('[name="text"]').type("pytest selene")
         time.sleep(1.5)
 
