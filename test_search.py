@@ -30,4 +30,4 @@ def test_search_in_google():
         browser.element(by.partial_text("pytest-selene")).should(be.visible)
         print ("Всё нашлось!!!")
     except Exception as e:
-        print ("Не вышло!!")
+        print ("Не вышло!!!")
